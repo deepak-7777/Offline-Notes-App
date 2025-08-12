@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="#1E1E1E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <!-- Note Content -->
+        <TextView
+            android:id="@+id/noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the note content..."
+            android:textSize="14sp"
+            android:textColor="#CCCCCC"
+            android:layout_marginTop="4dp" />
+
+        <!-- Date & Time -->
+        <TextView
+            android:id="@+id/noteDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07 Aug, 2025 - 10:30 AM"
+            android:textSize="12sp"
+            android:textColor="#AAAAAA"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp" />
+
+
+        <ImageView
+            android:id="@+id/pinIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/add_pin"
+            android:visibility="gone"
+            android:contentDescription="Pin Icon" />
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

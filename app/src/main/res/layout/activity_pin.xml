@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="24dp"
+    android:background="#000000"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.PinActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set PIN"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <!-- PIN Circles -->
+    <LinearLayout
+        android:id="@+id/tvPinDots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
+
+        <!-- 4 PIN dots -->
+        <View android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_unfilled"/>
+
+        <View android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_unfilled"/>
+
+        <View android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_unfilled"/>
+
+        <View android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_unfilled"/>
+    </LinearLayout>
+
+    <!-- Keypad -->
+    <GridLayout
+        android:id="@+id/gridNumbers"
+        android:layout_width="260dp"
+        android:layout_height="290dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:useDefaultMargins="true">
+
+        <!-- Digits 1 to 9 -->
+        <Button
+            android:id="@+id/btn1"
+            style="@style/KeyStyle"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/KeyStyle"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/KeyStyle"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/KeyStyle"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/KeyStyle"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/KeyStyle"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/KeyStyle"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/KeyStyle"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/KeyStyle"
+            android:text="9" />
+
+        <!-- Empty, 0, Delete -->
+        <Space
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/KeyStyle"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_marginTop="-6dp"
+            android:background="@color/black"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:paddingLeft="-14dp" />
+
+
+    </GridLayout>
+
+
+</LinearLayout>

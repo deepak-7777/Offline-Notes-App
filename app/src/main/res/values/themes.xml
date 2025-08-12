@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Note" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+<!--    <style name="Theme.Note" parent="Base.Theme.Note" />-->
+
+    <style name="KeyStyle">
+    <item name="android:layout_width">74dp</item>
+    <item name="android:layout_height">48dp</item>
+    <item name="android:background">@drawable/number</item>
+    <item name="android:textColor">#F2ECEC</item>
+    <item name="android:textSize">25sp</item>
+
+    </style>
+</resources>

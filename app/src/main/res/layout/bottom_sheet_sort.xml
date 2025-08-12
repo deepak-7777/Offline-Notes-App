@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottomsheet"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/option_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal Mode"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/option_timing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timing By"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/option_title_shortest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title Shortest First"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/white" />
+
+
+
+</LinearLayout>
