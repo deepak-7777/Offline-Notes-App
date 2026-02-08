@@ -1,32 +1,32 @@
-# 📂 Notes & Reminder App
+# 📂 Notes App
 
-This repository contains an **online notes and reminder application** where users can create, manage, and store their personal notes securely in the cloud.
+This repository contains an **offline notes application** where users can create and manage personal notes locally on their device. All data is stored within the app without using any cloud services.
 
 ---
 
 ## 📚 About
 
-The purpose of this project is to build a note-taking app with online data storage so that users can access their reminders anytime, even after reinstalling the application.
+The purpose of this project is to build a simple and reliable note-taking app that works completely offline, similar to a default notes application.
 
 ---
 
 ## 🚀 Features
 
-* Create personal notes & reminders
-* Edit and delete notes
-* Cloud data storage
-* Data sync across sessions
-* Data recovery after app reinstall
+* Create personal notes
+* Edit existing notes
+* Delete notes
+* Instant local data saving
+* Works fully offline
 
 ---
 
-## ☁️ Firebase Integration
+## 💾 Local Storage
 
-All notes and reminders are stored in **Firebase Database**, ensuring:
+All notes are stored locally on the device, ensuring:
 
-* Secure online storage
-* Real-time data access
-* Backup & restore functionality
+* No internet dependency
+* Fast data access
+* Private note storage
 
 ---
 
@@ -35,24 +35,23 @@ All notes and reminders are stored in **Firebase Database**, ensuring:
 * Java
 * XML
 * Android Studio
-* Firebase Realtime Database / Firestore
-
+* SQLite / Local Storage
 ---
 
 ## 🎯 Learning Outcome
 
 Through this project, I learned:
 
-* Firebase database integration
-* Cloud data storage handling
-* CRUD operations with Firebase
-* User data persistence
+* Local database/storage handling
+* CRUD operations offline
+* Note management logic
+* Building utility apps
 
 ---
 
 ## 📌 Note
 
-This project is created for learning and practice purposes while exploring cloud-based Android applications.
+This project is created for learning and practice purposes as an offline productivity application.
 
 ---
 
