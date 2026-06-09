@@ -4,7 +4,7 @@ This repository contains an **offline notes application** where users can create
 
 ---
 
-## 📚 About
+## 📚 About 
 
 The purpose of this project is to build a simple and reliable note-taking app that works completely offline, similar to a default notes application.
 
