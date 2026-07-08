@@ -23,7 +23,7 @@ The purpose of this project is to build a simple and reliable note-taking app th
 ## 💾 Local Storage
 
 All notes are stored locally on the device, ensuring:
-
+ 
 * No internet dependency
 * Fast data access
 * Private note storage
