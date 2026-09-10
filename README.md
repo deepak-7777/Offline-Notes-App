@@ -1,6 +1,6 @@
 # 📂 Notes App 
 
-This repository contains an **offline notes application** where users can create and manage personal notes locally on their device. All data is stored within the app without using any cloud services.
+This repository contains an **offline notes application** where users can create and manage personal notes locally on their device. All data is stored within the app without using any cloud services. 
  
 ---
  
